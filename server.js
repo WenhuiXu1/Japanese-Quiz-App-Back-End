@@ -2,6 +2,7 @@ const express = require('express')
 require('dotenv').config();
 
 const flashcardsController = require('./controllers/flashcards_controller')
+const questionCardsController = require('./controllers/questionCards_controller')
 
 const app = express()
 const PORT = 3001
@@ -11,10 +12,11 @@ app.listen(PORT, () => console.log(`Server is listening here: http://localhost:$
 
 app.use(express.json())
 app.use('/flashcards', flashcardsController)
+app.use('/questionCards', questionCardsController)
 
 // Routes
-// app.get('/flashcards', (req, res) => {
-//   res.json({ flashcards })
+// app.get('/questionCards', (req, res) => {
+//   res.json({ questionCards })
 // })
 
 // app.post('/flashcards', (req, res) => {
@@ -23,7 +25,7 @@ app.use('/flashcards', flashcardsController)
 // })
 
 // You can replace this with a database:
-// const flashcards = [
+// const questionCards = [
 //     {
 //       id: 1,
 //       question:'Question 1: This is the content of question 1',
