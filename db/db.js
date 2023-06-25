@@ -1,7 +1,7 @@
 const pg = require('pg')
 
 // change this to your actual local database name
-const localDbName = 'japanese_quiz_app'
+const localDbName = 'all_databases'
 
 let db;
 if (process.env.DATABASE_URL) {
