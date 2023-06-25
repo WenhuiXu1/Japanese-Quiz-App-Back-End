@@ -1,8 +1,8 @@
 const db = require('../db/db')
 
 const Flashcards = {
-    getAllFlashcards: () => {
-        const sql = 'SELECT * from flashcards'
+    getRandomFlashcards: () => {
+        const sql = 'SELECT * FROM flashcards ORDER BY RANDOM() LIMIT 10'
 
         return db
             .query(sql)

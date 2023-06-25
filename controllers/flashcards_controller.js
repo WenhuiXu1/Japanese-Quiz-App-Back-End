@@ -5,7 +5,7 @@ const Flashcards = require('../models/flashcards')
 
 router.get('/', (req, res) => {
     Flashcards
-        .getAllFlashcards()
+        .getRandomFlashcards()
         .then(flashcards => res.json(flashcards))
 })
 

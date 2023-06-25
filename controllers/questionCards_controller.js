@@ -5,7 +5,7 @@ const QuestionCards = require('../models/questionCards')
 
 router.get('/', (req, res) => {
     QuestionCards
-        .getAllQuestionCards()
+        .getRandomQuestionCards()
         .then(questionCards => res.json(questionCards))
 })
 
