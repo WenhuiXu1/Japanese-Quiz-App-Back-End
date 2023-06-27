@@ -9,4 +9,16 @@ router.get('/', (req, res) => {
         .then(flashcards => res.json(flashcards))
 })
 
+router.get('/hiragana', (req, res) => {
+    Flashcards
+        .getRandomHiragana()
+        .then(flashcards => res.json(flashcards))
+})
+
+router.get('/katakana', (req, res) => {
+    Flashcards
+        .getRandomKatakana()
+        .then(flashcards => res.json(flashcards))
+})
+
 module.exports = router
