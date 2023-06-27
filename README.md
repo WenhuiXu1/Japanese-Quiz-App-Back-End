@@ -3,6 +3,16 @@ Quizkana is a Japanese language learning app designed to help users improve thei
 
 ## :computer: [Click here](https://japanese-quiz-app.onrender.com/) to see my live project.
 
+### Wireframes
+![Wireframe](build/Wireframe.png)
+
+### Flow charts of app logic.
+![Flowchart](build/QuizAppFlowChat.png)
+
+## User stories
+- As a user, I would like to learning Japanese hiragana characters with flashcards where I can click on a flashcard and see the pronunciation of that character.
+- As a user, I want to get quizzed about my knowledge of basic Japanese words.
+
 ## Project screenshots
 ![Homepage](build/Homepage.png)
 ![Flashcards](build/Flashcards.png)
@@ -28,13 +38,7 @@ To address this problem, I employed a combination of pedagogical principles and 
 
 2, Interactive Quizzes: These quizzes test the user's ability to recognize and associate hiragana characters with their corresponding pronunciations. By providing immediate feedback and scoring, users can track their progress and identify areas that require further practice.
 
-### Wireframes
-![Wireframe](build/Wireframe.png)
 
-### Flow charts of app logic.
-![Flowchart](build/QuizAppFlowChat.png)
-
-## User stories
 
 ## :rocket: Tech stacks
 - Javascript, Node JS, Express JS
