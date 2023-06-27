@@ -29,9 +29,10 @@ To address this problem, I employed a combination of pedagogical principles and 
 2, Interactive Quizzes: These quizzes test the user's ability to recognize and associate hiragana characters with their corresponding pronunciations. By providing immediate feedback and scoring, users can track their progress and identify areas that require further practice.
 
 ### Wireframes
-
+![Wireframe](build/Wireframe.png)
 
 ### Flow charts of app logic.
+![Flowchart](build/QuizAppFlowChat.png)
 
 ## User stories
 
