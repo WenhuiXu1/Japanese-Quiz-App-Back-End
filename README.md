@@ -3,6 +3,16 @@ Quizkana is a Japanese language learning app designed to help users improve thei
 
 ## :computer: [Click here](https://japanese-quiz-app.onrender.com/) to see my live project.
 
+## :pencil2: Planning & Problem Solving
+
+In developing Quizkana, my primary goal was to provide an effective and engaging solution for learning hiragana, one of the foundational scripts of the Japanese writing system. I recognized that mastering these characters is essential for building a strong foundation in Japanese language learning.
+
+To address this problem, I employed a combination of pedagogical principles and techniques designed to optimize learning outcomes:
+
+1, Flashcards reinforcement: Quizkana offers a set of flashcards that allow users to practice and review hiragana characters at their own pace. 
+
+2, Interactive Quizzes: These quizzes test the user's ability to recognize and associate hiragana characters with their corresponding pronunciations. By providing immediate feedback and scoring, users can track their progress and identify areas that require further practice.
+
 ### Wireframes
 ![Wireframe](build/Wireframe.png)
 
@@ -26,19 +36,6 @@ $ cd Quizkana
 $ npm install
 $ npm start
 ```
-
-## :pencil2: Planning & Problem Solving
-
-### Approach to the problem
-In developing Quizkana, my primary goal was to provide an effective and engaging solution for learning hiragana, one of the foundational scripts of the Japanese writing system. I recognized that mastering these characters is essential for building a strong foundation in Japanese language learning.
-
-To address this problem, I employed a combination of pedagogical principles and techniques designed to optimize learning outcomes:
-
-1, Flashcards reinforcement: Quizkana offers a set of flashcards that allow users to practice and review hiragana characters at their own pace. 
-
-2, Interactive Quizzes: These quizzes test the user's ability to recognize and associate hiragana characters with their corresponding pronunciations. By providing immediate feedback and scoring, users can track their progress and identify areas that require further practice.
-
-
 
 ## :rocket: Tech stacks
 - Javascript, Node JS, Express JS
