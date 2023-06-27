@@ -49,5 +49,5 @@ $ npm start
 
 ## :white_check_mark: Future features
 - add audio for hiragana flashcards
-- implement leaderboard section on the main page to display the top scores or achievements of users 
 - implement offset value when making API calls
+- implement leaderboard section on the main page to display the top scores or achievements of users 
