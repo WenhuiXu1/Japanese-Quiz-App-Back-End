@@ -14,6 +14,7 @@ app.use(express.json())
 app.use('/flashcards', flashcardsController)
 app.use('/flashcards/hiragana', flashcardsController)
 app.use('/flashcards/katakana', flashcardsController)
+app.use('/flashcards/sound-change', flashcardsController)
 app.use('/questionCards', questionCardsController)
 
 if (process.env.NODE_ENV === 'production') {

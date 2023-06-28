@@ -5,19 +5,25 @@ const Flashcards = require('../models/flashcards')
 
 router.get('/', (req, res) => {
     Flashcards
-        .getRandomFlashcards()
+        .getFlashcards()
         .then(flashcards => res.json(flashcards))
 })
 
 router.get('/hiragana', (req, res) => {
     Flashcards
-        .getRandomHiragana()
+        .getAllHiragana()
         .then(flashcards => res.json(flashcards))
 })
 
 router.get('/katakana', (req, res) => {
     Flashcards
-        .getRandomKatakana()
+        .getAllKatakana()
+        .then(flashcards => res.json(flashcards))
+})
+
+router.get('/sound-change', (req, res) => {
+    Flashcards
+        .getAllSoundChange()
         .then(flashcards => res.json(flashcards))
 })
 
